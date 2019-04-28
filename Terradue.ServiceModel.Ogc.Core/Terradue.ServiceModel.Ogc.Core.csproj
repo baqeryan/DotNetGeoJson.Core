@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>2.1.1</Version>
+    <Authors>ali baqerian</Authors>
+    <Company>Terradue</Company>
+    <Description>Terradue.ServiceModel.Ogc is a library targeting .NET 4.0 to handle all OGC schemas serialization mainly in XML</Description>
+    <PackageProjectUrl>https://github.com/baqeryan/DotNetGeoJson.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/baqeryan/DotNetGeoJson.Core</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

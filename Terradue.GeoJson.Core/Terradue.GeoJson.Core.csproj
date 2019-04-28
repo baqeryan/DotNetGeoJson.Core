@@ -2,14 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.9.2.1</Version>
+    <Authors>ali baqerian</Authors>
+    <Company>Terradue</Company>
+    <Description>Initially developed to provide an easy way to manage Geometry objects with serialization and deserialization functions and transformation functions from/to GeoJson, it also supports GML, georss and Well Known Text (WKT)</Description>
+    <PackageProjectUrl>https://github.com/baqeryan/DotNetGeoJson.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/baqeryan/DotNetGeoJson.Core</RepositoryUrl>
+    <AssemblyVersion>1.9.2.0</AssemblyVersion>
+    <FileVersion>1.9.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="TM.NetTopologySuite.Core" Version="1.15.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetTopologySuite.Core\NetTopologySuite.Core.csproj" />
     <ProjectReference Include="..\Terradue.ServiceModel.Ogc.Core\Terradue.ServiceModel.Ogc.Core.csproj" />
   </ItemGroup>
 
