@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetTopologySuite.Core\NetTopologySuite.Core.csproj" />
+    <ProjectReference Include="..\Terradue.ServiceModel.Ogc.Core\Terradue.ServiceModel.Ogc.Core.csproj" />
+  </ItemGroup>
+
+</Project>

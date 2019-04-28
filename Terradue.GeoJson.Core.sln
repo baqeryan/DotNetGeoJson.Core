@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terradue.GeoJson.Core", "Terradue.GeoJson.Core\Terradue.GeoJson.Core.csproj", "{1127A335-D24D-497E-8382-3C3A333EBD54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terradue.ServiceModel.Ogc.Core", "Terradue.ServiceModel.Ogc.Core\Terradue.ServiceModel.Ogc.Core.csproj", "{7FD92F8D-634C-4087-B6B7-4D24A98E0CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTopologySuite.Core", "NetTopologySuite.Core\NetTopologySuite.Core.csproj", "{3BCF865B-E3B5-406D-ADDE-7013EC27AB5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1127A335-D24D-497E-8382-3C3A333EBD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1127A335-D24D-497E-8382-3C3A333EBD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1127A335-D24D-497E-8382-3C3A333EBD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1127A335-D24D-497E-8382-3C3A333EBD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD92F8D-634C-4087-B6B7-4D24A98E0CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD92F8D-634C-4087-B6B7-4D24A98E0CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD92F8D-634C-4087-B6B7-4D24A98E0CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD92F8D-634C-4087-B6B7-4D24A98E0CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCF865B-E3B5-406D-ADDE-7013EC27AB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCF865B-E3B5-406D-ADDE-7013EC27AB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCF865B-E3B5-406D-ADDE-7013EC27AB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCF865B-E3B5-406D-ADDE-7013EC27AB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D97D853-8862-4CB0-B06A-8E4CF8E446EA}
+	EndGlobalSection
+EndGlobal
